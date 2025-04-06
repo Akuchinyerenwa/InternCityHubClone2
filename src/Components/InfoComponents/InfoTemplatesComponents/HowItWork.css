@@ -1,0 +1,20 @@
+.how-it-work-root {
+  margin-top: 20px;
+  width: 48%;
+  text-align: left;
+}
+
+.how-it-work-root h3 {
+  color: #4e93cb;
+  padding: 0 50px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.how-it-work-root p {
+  width: 65%;
+  margin-right: auto;
+  line-height: 1.6rem;
+  margin-bottom: 50px;
+}

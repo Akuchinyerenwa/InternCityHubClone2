@@ -1,0 +1,9 @@
+.about-img {
+  width: 45%;
+}
+
+.about-img img {
+  width: 28%;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
