@@ -1,0 +1,18 @@
+.dummy-article {
+  width: 30%;
+  padding: 10px 25px;
+  font-size: .9rem;
+}
+
+.dummy-article img {
+  margin-bottom: 20px;
+}
+
+.title-root {
+  margin-bottom: 20px;
+  color: #556475;
+}
+
+.description-root {
+  margin-bottom: 100px;
+}

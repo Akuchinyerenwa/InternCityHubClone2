@@ -1,0 +1,17 @@
+.feature-articls {
+  padding: 50px;
+  text-align: center;
+}
+
+.feature-articls h4 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #218be2;
+}
+
+.feature-articls > div {
+  display: flex;
+  justify-content: space-evenly;
+}
