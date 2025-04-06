@@ -12,7 +12,7 @@ function Hero() {
       
       <p>Request, Assets & Expense Management all on one platform.</p>
 
-      <HeroInput />
+      <HeroInput value="Sign Up" />
     </div>
   )
 }
