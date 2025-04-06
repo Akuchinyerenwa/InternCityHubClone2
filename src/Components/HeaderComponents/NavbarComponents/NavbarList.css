@@ -1,0 +1,11 @@
+.navbar-list-root {
+  padding-left: 0 50px;
+  display: flex;
+  gap: 30px;
+  font-size: .95rem;
+  font-weight: bold;
+}
+
+.navbar-list-root li a {
+  color: #fff;
+}

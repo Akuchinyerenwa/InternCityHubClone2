@@ -1,0 +1,16 @@
+.hero-root {
+  text-align: center;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.hero-root h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.hero-root p {
+  font-size: .87rem;
+  letter-spacing: 1px;
+}

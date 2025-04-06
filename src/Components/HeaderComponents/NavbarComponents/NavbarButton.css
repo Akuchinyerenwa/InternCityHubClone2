@@ -1,0 +1,16 @@
+.navbar-button {
+  margin-left: 50px;
+  font-size: .8rem;
+  background-color: #24a45e;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #1313ff;
+}
+
+.navbar-button a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: #fff;
+}
