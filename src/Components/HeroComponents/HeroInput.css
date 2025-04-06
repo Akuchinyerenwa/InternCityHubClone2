@@ -1,19 +1,22 @@
 .hero-input {
   margin-top: 30px;
-  padding: 2px;
+  padding: 5px;
 }
 
 .hero-input input,
 .hero-input button {
-  padding: 20px 40px;
   border: none;
+  font-size: .95rem;
 }
 
 .hero-input input {
-  width: 40%;
+  width: 41%;
+  padding: 17px 40px;
 }
 
 .hero-input button {
   background-color: #24a45e;
   box-shadow: 0 1px 3px #1313ff;
+  padding: 17px 50px;
+  color: #fff;
 }

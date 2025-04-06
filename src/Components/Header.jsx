@@ -6,7 +6,7 @@ import { Navbar } from "./HeaderComponents/Navbar";
 
 function Header() {
   return (
-    <header className="header-root">
+    <header className="w-full py-[10px] px-[50px] flex items-center justify-between">
       <Logo />
       <Navbar />
     </header>
