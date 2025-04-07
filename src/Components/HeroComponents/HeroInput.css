@@ -20,3 +20,23 @@
   padding: 17px 50px;
   color: #fff;
 }
+
+@media (max-width: 720px) {
+  .hero-input {
+    margin-top: 15px;
+  }
+  
+  .hero-input input,
+  .hero-input button {
+    font-size: .85rem;
+  }
+  
+  .hero-input input {
+    width: 60%;
+    padding: 10px 20px;
+  }
+  
+  .hero-input button {
+    padding: 10px 30px;
+  }
+}

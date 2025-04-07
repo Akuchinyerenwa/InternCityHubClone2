@@ -16,8 +16,9 @@
     padding: 10px 50px;
     justify-content: space-between;
     font-size: .85rem;
+    font-weight: 500;
     position: absolute;
-    top: 65px;
+    top: 70px;
     right: 0;
     left: 0;
     width: 100vw;

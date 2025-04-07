@@ -14,3 +14,18 @@
   font-size: .87rem;
   letter-spacing: 1px;
 }
+
+@media (max-width: 720px) {
+  .hero-root {
+    margin-top: 50px;
+  }
+  
+  .hero-root h1 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero-root p {
+    font-size: .85rem;
+  }
+}
