@@ -1,0 +1,17 @@
+.footer-root {
+  padding: 30px 50px 70px;
+  border-top: 1px solid #c0bebe;
+  font-size: .7rem;
+  display: flex;
+  justify-content: space-between;
+  color: #556475;
+}
+
+.footer-root ul {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-root ul li a {
+  color: #556475;
+}
