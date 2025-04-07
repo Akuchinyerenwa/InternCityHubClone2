@@ -3,3 +3,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 720px) {
+  .contact-root {
+    padding: 30px 10px;
+  }  
+}

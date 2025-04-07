@@ -7,3 +7,12 @@
 .dummy-cantact ul div > li a {
   color: #556475;
 }
+
+@media (max-width: 720px) {
+  .dummy-cantact {
+    .dummy-cantact {
+      line-height: 1.1rem;
+      font-size: .6rem;
+    }
+  }
+}
