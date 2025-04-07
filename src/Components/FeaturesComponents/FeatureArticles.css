@@ -15,3 +15,13 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+@media (max-width: 720px) {
+  .feature-articls {
+    padding: 30px 20px;
+  }
+  
+  .feature-articls h4 {
+    margin-bottom: 20px;
+  }
+}

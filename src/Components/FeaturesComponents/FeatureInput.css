@@ -10,3 +10,9 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+@media (max-width: 720px) {
+  .feature-input {
+    padding: 30px 20px;
+  }
+}

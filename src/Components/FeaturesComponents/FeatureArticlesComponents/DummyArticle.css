@@ -16,3 +16,23 @@
 .description-root {
   margin-bottom: 100px;
 }
+
+@media (max-width: 720px) {
+  .dummy-article {
+    padding: 10px 10px;
+    font-size: .8rem;
+  }
+  
+  .dummy-article img {
+    margin-bottom: 10px;
+    width: 40px;
+  }
+  
+  .title-root {
+    margin-bottom: 10px;
+  }
+  
+  .description-root {
+    margin-bottom: 60px;
+  }
+}
