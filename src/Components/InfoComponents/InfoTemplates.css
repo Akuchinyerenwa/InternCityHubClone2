@@ -1,7 +1,15 @@
-.template-one, .template-two {
+.template-one,
+.template-two {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid #dee5eb;
+}
+
+@media (max-width: 720px) {
+  .template-one,
+  .template-two {
+    padding: 15px 5px;
+  }
 }

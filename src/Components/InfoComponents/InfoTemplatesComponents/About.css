@@ -28,3 +28,24 @@
   margin-right: 20px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 720px) {
+  .about-root h3 {
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .about-root p {
+    font-size: .90rem;
+    line-height: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-root button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+  }
+}

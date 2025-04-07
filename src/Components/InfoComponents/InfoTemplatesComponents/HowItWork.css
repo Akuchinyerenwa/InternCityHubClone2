@@ -18,3 +18,16 @@
   line-height: 1.6rem;
   margin-bottom: 50px;
 }
+
+@media (max-width: 720px) {
+  .how-it-work-root h3 {
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .how-it-work-root p {
+    font-size: .90rem;
+    line-height: 1.3rem;
+    margin-bottom: 30px;
+  }
+}
