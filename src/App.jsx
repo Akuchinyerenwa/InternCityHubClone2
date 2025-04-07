@@ -1,4 +1,5 @@
 /* import "./App.css"; */
+import { Contact } from "./Components/Contact";
 import { Features } from "./Components/Features";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
@@ -15,6 +16,7 @@ export default function App() {
 
       <Info />
       <Features />
+      <Contact />
     </div>
   );
 }

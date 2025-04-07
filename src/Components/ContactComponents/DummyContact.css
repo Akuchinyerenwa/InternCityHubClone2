@@ -1,0 +1,9 @@
+.dummy-cantact {
+  padding: 5px;
+  line-height: 1.6rem;
+  font-size: .7rem;
+}
+
+.dummy-cantact ul div > li a {
+  color: #556475;
+}

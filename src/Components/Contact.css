@@ -1,0 +1,5 @@
+.contact-root {
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+}
