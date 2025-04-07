@@ -1,31 +1,73 @@
 import "./Contact.css";
-import { DummyContact } from "./ContactComponents/DummyContact";
-
-
+import { AppLinks } from "./ContactComponents/AppLinks";
 
 function Contact() {
-  function ConpanyList() {
-    return (
-      <div>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Press</a></li>
-      </div>
-    )
-  }
-
   return (
     <div className="contact-root">
-      <DummyContact title="Company" contents={ConpanyList()} />
-      <DummyContact title="Product" contents={ConpanyList()} />
-      <DummyContact title="Resources" contents={ConpanyList()} />
-      <DummyContact title="Follow" contents={ConpanyList()} />
-      <DummyContact title="Get in Touch" contents={ConpanyList()} />
+      <AppLinks
+        title="Company"
+        contents={[
+          { value: "About Us", href: "#" },
+          { value: "Contact Us", href: "#" },
+          { value: "Careers", href: "#" },
+          { value: "Team", href: "#" },
+          { value: "Blog", href: "#" },
+          { value: "Press", href: "#" },
+        ]}
+      />
+      <AppLinks
+        title="Product"
+        contents={[
+          { value: "Features", href: "#" },
+          { value: "Pricing", href: "#" },
+          { value: "Security", href: "#" },
+          { value: "Vendors", href: "#" },
+        ]}
+      />
+      <AppLinks
+        title="Resources"
+        contents={[
+          { value: "Support", href: "#" },
+          { value: "Request a Demo", href: "#" },
+          { value: "Sitemap", href: "#" },
+          { value: "FAQ", href: "#" },
+          { value: "Bug Report", href: "#" },
+        ]}
+      />
+      <AppLinks
+        isSocialLinks
+        title="Follow"
+        contents={[
+          { value: "./image/twitter.png", href: "#" },
+          { value: "./image/facebook.png", href: "#" },
+          { value: "./image/linkedin-big-logo.png", href: "#" },
+        ]}
+      />
+      <div className="flex-1">
+        <AppLinks
+          title="Get in Touch"
+          contents={[
+            {
+              value:
+                "Keep up on our always evolving products and more new features. Enter your e-mail and subscribe to our newsletter",
+              href: "#",
+            },
+          ]}
+        />
+        <p className="contact-input">
+          <input
+            type="email"
+            name="contact"
+            id="contact"
+            placeholder="Enter your email address"
+          />
+          <button>
+            <img src="../image/button-arrow.png" alt="Button arrow" />
+          </button>
+        </p>
+      </div>
     </div>
-  )
+  );
 }
 
-export {Contact};
+export { Contact };
