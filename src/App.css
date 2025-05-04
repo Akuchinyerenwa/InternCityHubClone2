@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.header-hero-background-image img {
+.header-hero-background-image > img {
   width: 100%;
   position: absolute;
   top: 0;
