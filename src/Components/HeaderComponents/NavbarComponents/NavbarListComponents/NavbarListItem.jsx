@@ -1,5 +1,9 @@
 const NavbarListItem = ({ item }) => {
-  return <li>{item}</li>;
+  return (
+    <li>
+      <a href="#">{item}</a>
+    </li>
+  );
 };
 
 export default NavbarListItem;

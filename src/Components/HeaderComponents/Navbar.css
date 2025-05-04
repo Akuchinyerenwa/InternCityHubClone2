@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.navbar a {
+.navbar > a {
   margin-left: 20px;
   padding: 10px 15px;
   background-color: #5dad55;
