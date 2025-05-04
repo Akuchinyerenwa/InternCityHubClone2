@@ -1,5 +1,3 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import heroImage from "./Images/hero.png";
 import "./App.css";
 import Header from "./Components/Header";
