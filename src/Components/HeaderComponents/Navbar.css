@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin-left: 20px;
+  padding: 10px 15px;
+  background-color: #5dad55;
+  color: #fbfcfd;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #2d38d4;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  box-shadow: 0 1px 4px #fbfcfd;
+}
