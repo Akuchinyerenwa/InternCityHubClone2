@@ -17,7 +17,7 @@
   transition: 0.4s;
 }
 
-.navbar a:hover,
-.navbar a:active {
+.navbar > a:hover,
+.navbar > a:active {
   box-shadow: 0 1px 4px #fbfcfd;
 }
