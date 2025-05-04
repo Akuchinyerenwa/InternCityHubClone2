@@ -1,3 +1,4 @@
+import "./Header.css";
 import InterncityHubLogo from "../Images/InterncityHubLogo.jpg";
 import Navbar from "./HeaderComponents/Navbar";
 
