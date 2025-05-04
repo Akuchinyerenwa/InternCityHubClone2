@@ -1,0 +1,14 @@
+.header-hero-background-image {
+  width: 100dvw;
+  position: relative;
+}
+
+.header-hero-background-image img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+}
