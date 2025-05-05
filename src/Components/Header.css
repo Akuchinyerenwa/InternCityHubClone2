@@ -23,3 +23,23 @@
 .logo img {
   height: 100%;
 }
+
+@media (max-width: 820px) {
+  .header-root {
+    padding: 15px 40px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  .header-root {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    height: 35px;
+  }
+}
