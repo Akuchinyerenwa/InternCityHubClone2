@@ -7,6 +7,9 @@ const Navbar = () => {
     <nav className="navbar">
       <NavbarList />
       <LinkButton content="Start Free Trial" />
+      <div className="hamburger">
+        <div className="hamburger-bar"></div>
+      </div>
     </nav>
   );
 };
