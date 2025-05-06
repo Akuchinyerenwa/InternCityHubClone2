@@ -55,3 +55,74 @@
   opacity: 0.8;
   color: #0b0d0f;
 }
+
+@media (max-width: 820px) {
+  .hero-root {
+    width: 75%;
+  }
+
+  .hero-root h1 {
+    font-size: 1.3rem;
+    margin: 25px 0 20px;
+  }
+
+  .hero-root p {
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-shadow: 0 1px 2px #2d38d4;
+  }
+
+  .hero-root div {
+    margin: 20px 0;
+  }
+
+  .hero-root div input {
+    line-height: 2.2rem;
+    font-size: 1rem;
+  }
+
+  .hero-root div input[type="email"] {
+    padding: 0 25px;
+    width: 65%;
+  }
+
+  .hero-root div input[type="button"] {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-root {
+    width: 92%;
+  }
+
+  .hero-root h1 {
+    font-size: 1rem;
+    margin: 6px 0 15px;
+    text-shadow: 0 1px 3px #2d38d4;
+  }
+
+  .hero-root p {
+    font-size: 0.8rem;
+  }
+
+  .hero-root div {
+    margin: 8px 0 15px;
+  }
+
+  .hero-root div input {
+    border: none;
+    outline: none;
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+  }
+
+  .hero-root div input[type="email"] {
+    padding: 0 10px;
+    width: 55%;
+  }
+
+  .hero-root div input[type="button"] {
+    padding: 0 15px;
+  }
+}
