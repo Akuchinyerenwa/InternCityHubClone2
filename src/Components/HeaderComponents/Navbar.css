@@ -22,11 +22,11 @@
   box-shadow: 0 1px 4px #fbfcfd;
 }
 
-@media (max-width: 820px) {
+@media (max-width: 840px) {
   .navbar > a {
     margin-left: 10px;
     padding: 5px 10px;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     letter-spacing: 0;
   }
 }
