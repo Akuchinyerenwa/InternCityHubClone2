@@ -1,16 +1,16 @@
-import heroImage from "./Images/hero.png";
 import "./App.css";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import Info from "./Components/Info";
 
 export default function App() {
   return (
     <>
-      <div className="header-hero-background-image">
-        <img src={heroImage} alt="Background Image" />
+      <div className="header-hero-container">
         <Header />
         <Hero />
       </div>
+      <Info />
     </>
   );
 }
