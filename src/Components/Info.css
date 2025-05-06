@@ -1,0 +1,79 @@
+.info-upper-contents,
+.info-lower-contents {
+  padding: 50px 100px;
+  box-shadow: 25px 25px 150px #cfcfcf;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-upper-contents {
+  align-items: center;
+}
+
+.info-lower-contents {
+  align-items: end;
+}
+
+.info-upper-contents article,
+.info-lower-contents article {
+  width: 40%;
+}
+
+.info-upper-contents article h4,
+.info-lower-contents article h4 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #328bf0;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.info-upper-contents article p,
+.info-lower-contents article p {
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+  margin-bottom: 40px;
+}
+
+.info-upper-contents article p {
+  text-align: right;
+}
+
+.info-upper-contents article a {
+  display: inline-block;
+  background-color: #328bf0;
+  color: #fbfcfd;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  padding: 0 40px;
+  margin-left: 53%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.info-upper-contents article a:hover,
+.info-upper-contents article a:active {
+  opacity: 0.7;
+}
+
+.info-upper-contents div,
+.info-lower-contents div {
+  width: 40%;
+}
+
+.info-upper-contents div img,
+.info-lower-contents div img {
+  width: 150px;
+}
+
+.info-upper-contents div img {
+  margin-left: 25%;
+}
+
+.info-lower-contents div img {
+  margin-left: 40%;
+}
