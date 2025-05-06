@@ -77,3 +77,111 @@
 .info-lower-contents div img {
   margin-left: 40%;
 }
+
+@media (max-width: 840px) {
+  .info-upper-contents,
+  .info-lower-contents {
+    padding: 40px;
+  }
+
+  .info-upper-contents article,
+  .info-lower-contents article {
+    width: 45%;
+  }
+
+  .info-upper-contents article h4,
+  .info-lower-contents article h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  .info-upper-contents article p,
+  .info-lower-contents article p {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+    margin-bottom: 25px;
+  }
+
+  .info-upper-contents article a {
+    font-size: 0.85rem;
+    line-height: 2.1rem;
+    padding: 0 30px;
+    margin-left: 45%;
+  }
+
+  .info-upper-contents div,
+  .info-lower-contents div {
+    width: 45%;
+  }
+
+  .info-upper-contents div img,
+  .info-lower-contents div img {
+    width: 120px;
+  }
+
+  .info-lower-contents div img {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 580px) {
+  .info-upper-contents,
+  .info-lower-contents {
+    padding: 50px 15px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .info-upper-contents {
+    flex-direction: column;
+  }
+
+  .info-lower-contents {
+    flex-direction: column-reverse;
+  }
+
+  .info-upper-contents article,
+  .info-lower-contents article {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .info-upper-contents article h4,
+  .info-lower-contents article h4 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .info-upper-contents article p,
+  .info-lower-contents article p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .info-upper-contents article a {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin-left: 35%;
+  }
+
+  .info-upper-contents div,
+  .info-lower-contents div {
+    width: fit-content;
+  }
+
+  .info-upper-contents div img,
+  .info-lower-contents div img {
+    width: 110px;
+  }
+
+  .info-upper-contents div img {
+    margin-left: 0;
+  }
+
+  .info-lower-contents div img {
+    margin-left: 0;
+  }
+}
