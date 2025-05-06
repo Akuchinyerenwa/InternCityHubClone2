@@ -1,5 +1,5 @@
 import "./Info.css";
-import InfoContents from "./InfoComponents/InfoContents";
+import InfoContents, { InfoImages } from "./InfoComponents/InfoContents";
 import statistics from "../Images/statistics.png";
 import settings from "../Images/settings.png";
 import LinkButton from "./HeaderComponents/NavbarComponents/LinkButton";
@@ -16,11 +16,11 @@ const Info = () => {
           linkBtn={LinkBtn}
         />
 
-        <img src={statistics} alt="Statistics image" />
+        <InfoImages image={statistics} alt="Statistics image" />
       </div>
 
       <div className="info-lower-contents">
-        <img src={settings} alt="Settings image" />
+        <InfoImages image={settings} alt="Settings image" />
 
         <InfoContents
           title="how it works"
