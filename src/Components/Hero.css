@@ -1,0 +1,57 @@
+.hero-root {
+  width: 58%;
+  margin: auto;
+  color: #fbfcfd;
+  text-align: center;
+}
+
+.hero-root h1 {
+  font-size: 1.87rem;
+  font-weight: 500;
+  margin: 57px 35px 30px 0;
+}
+
+.hero-root p {
+  font-size: 0.98rem;
+  font-weight: 100;
+}
+
+.hero-root div {
+  margin: 38px;
+}
+
+.hero-root div input {
+  border: none;
+  outline: none;
+  line-height: 3rem;
+  font-size: 1.1rem;
+  transition: 0.4s;
+}
+
+.hero-root div input[type="email"] {
+  background-color: rgba(251, 252, 253, 0.75);
+  padding: 0 35px;
+  border-radius: 2px 0 0 2px;
+  box-shadow: -1px 1px 8px #2d38d4;
+  width: 77%;
+}
+
+.hero-root div input[type="email"]:active,
+.hero-root div input[type="email"]:focus {
+  background-color: #fbfcfd;
+}
+
+.hero-root div input[type="button"] {
+  padding: 0 40px;
+  border-radius: 0 2px 2px 0;
+  background-color: #5dad55;
+  color: #fbfcfd;
+  box-shadow: 1px 1px 8px #2d38d4;
+  cursor: pointer;
+}
+
+.hero-root div input[type="button"]:hover,
+.hero-root div input[type="button"]:active {
+  opacity: 0.8;
+  color: #0b0d0f;
+}
