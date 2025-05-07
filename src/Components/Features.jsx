@@ -1,6 +1,7 @@
 import "./Features.css";
 import FeaturesContents from "./FeaturesComponents/FeaturesContents";
 import FeaturesArrayOfObjects from "./FeaturesComponents/FeaturesContent.js";
+import Inputs from "./HeroComponents/Inputs.jsx";
 
 const Features = () => {
   const FeaturesObjectsContents = FeaturesArrayOfObjects.map((object) => {
@@ -21,6 +22,10 @@ const Features = () => {
       <div className="features-section-container">
         {FeaturesObjectsContents}
       </div>
+      <section className="features-input">
+        <p>getting started takes less than a minute</p>
+        <Inputs placeholder="Enter email address" btnItem="Start Free Trail" />
+      </section>
     </div>
   );
 };
