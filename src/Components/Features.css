@@ -1,0 +1,42 @@
+.features-root {
+  padding: 50px;
+}
+
+.features-root h4 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #328bf0;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.features-section-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.features-section-container section {
+  width: 260px;
+  text-align: center;
+}
+
+.features-section-container section img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.features-section-container section h5 {
+  color: #394a5c;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.features-section-container section p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  margin-bottom: 50px;
+}
