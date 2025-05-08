@@ -1,0 +1,102 @@
+.contact-root {
+  padding: 50px 80px 20px;
+  background-color: #f6f6f7;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contact-root section {
+  margin-bottom: 30px;
+  width: 200px;
+}
+
+.contact-root section h5,
+.contact-root section p {
+  margin-bottom: 13px;
+}
+
+.contact-root section h5 {
+  font-size: 1rem;
+  /* background-color: #328bf0; */
+  color: #35373b;
+}
+
+.contact-root section a {
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contact-root section > a {
+  display: inline-block;
+  background-color: #aab3ce;
+  overflow: hidden;
+  height: 32px;
+  width: 32px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  outline: 6px solid #fff;
+  outline-offset: -5px;
+  box-shadow: 0 1px 7px #5f636d;
+}
+
+.contact-root section > a img {
+  height: 98%;
+  margin-left: 1px;
+}
+
+.contact-root section p,
+.contact-root section p a {
+  color: #5f636d;
+  font-size: 0.85rem;
+}
+
+.contact-root section a:hover,
+.contact-root section a:active {
+  opacity: 0.7;
+}
+
+.contact-input-container input {
+  margin-top: 10px;
+  transition: 0.4s;
+}
+
+.contact-input-container input[type="email"] {
+  font-size: 0.6rem;
+  line-height: 1.3rem;
+  width: 160px;
+  padding: 0 10px;
+  border: 1px solid #328bf0;
+  outline: none;
+  border-radius: 3px 0 0 3px;
+}
+
+.contact-input-container input[type="email"]:focus,
+.contact-input-container input[type="email"]:active {
+  border: 1px solid #5f636d;
+}
+
+.contact-input-container input[type="button"] {
+  width: 34px;
+  height: 22px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #328bf0;
+  background-image: url(../Images/button-arrow.png);
+  background-position: center;
+  background-size: 13px;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+}
+
+.contact-input-container input[type="button"]:hover,
+.contact-input-container input[type="button"]:active {
+  background-color: #5f636d;
+}
+
+@media (max-width: 580px) {
+  .contact-root {
+    padding: 50px 30px 20px;
+  }
+}
