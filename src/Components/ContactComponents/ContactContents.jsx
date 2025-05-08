@@ -1,7 +1,8 @@
-const ContactContents = () => {
+const ContactContents = ({ title, contents }) => {
   return (
     <section>
-      <h5>I am here for the ContactContents component</h5>
+      <h5>{title}</h5>
+      <>{contents}</>
     </section>
   );
 };
