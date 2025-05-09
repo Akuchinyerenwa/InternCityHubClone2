@@ -1,6 +1,7 @@
 import "./App.css";
 import Contact from "./Components/Contact";
 import Features from "./Components/Features";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Info from "./Components/Info";
@@ -15,6 +16,7 @@ export default function App() {
       <Info />
       <Features />
       <Contact />
+      <Footer />
     </>
   );
 }
